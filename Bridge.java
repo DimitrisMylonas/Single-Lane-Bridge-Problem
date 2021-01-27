@@ -31,13 +31,13 @@ public class Bridge {
 			} catch (InterruptedException e) {
 			}
 
-			System.out.printf("									%s crossing the bridge.\n", car_name);
+			System.out.printf("				%s crossing the bridge.\n", car_name);
 			try {
 				Thread.sleep((int) (Math.random() * 100));
 			} catch (InterruptedException e) {
 			}
 
-			System.out.printf("																%s crossed the bridge.\n",
+			System.out.printf("					%s crossed the bridge.\n",
 					car_name);
 
 			if (count_blue + 3 <= count_red) { 							
@@ -68,12 +68,12 @@ public class Bridge {
 			} catch (InterruptedException e) {
 			}
 
-			System.out.printf("									%s crossing the bridge.\n", car_name);
+			System.out.printf("				%s crossing the bridge.\n", car_name);
 			try {
 				Thread.sleep((int) (Math.random() * 100));
 			} catch (InterruptedException e) {
 			}
-			System.out.printf("																%s crossed the bridge.\n",
+			System.out.printf("					%s crossed the bridge.\n",
 					car_name);
 
 			if (count_blue >= count_red + 3) { 										
