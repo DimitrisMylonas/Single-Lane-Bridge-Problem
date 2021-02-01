@@ -5,16 +5,16 @@ import java.util.Queue;
 
 public class Bridge {
 
-	Queue<Cars> Q = new LinkedList<Cars>();
+	//Queue<Cars> Q = new LinkedList<Cars>();
 	private boolean redflag = true;
 	private boolean blueflag = false;
 	private volatile int count_red = 0; 
 	private volatile int count_blue = 0; 
 
-	public void AddToQueue(Cars cars) {
+	/*public void AddToQueue(Cars cars) {
 
 		Q.add(cars);
-	}
+	}*/
 
 	public void CrossRedCar(String car_name, String type) {
 		synchronized (this) {
